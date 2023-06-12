@@ -43,7 +43,7 @@
     <main>
 	 <header><h3>A JavaScript Project by Kady Tran</h3></header>
 	 <h3 id="my-greeting">Greeting goes here</h3>
-	    <p>Explain what your page does and how it works here!</p>
+	    <p>Welcome to my page! This website was created using JavaScript to determine the current hour, and presents a different image, custom message, and color based on each of the following times of day!</p>
 	  <img id="my-pic"src="images/night.gif" alt="Time of Day Image" class="flexible">
      <footer>
       <p><small>&copy; 2022-<span id="my-copyright">year goes here</span> by
@@ -72,7 +72,7 @@ Night (11pm to 5am)
 	let myGreeting= "";
 	let myPic= "";
 
-	 myHour = 23;
+	/* myHour = 23; */
 
 	console.log(myHour);
 
@@ -91,7 +91,7 @@ Night (11pm to 5am)
 	myGreeting = "Good Evening!";
 	myColor = "purple";
 	myPic = "evening.gif";
-	}else /*if(myHour >= 23 && myHour < 5)*/{
+	}else if(myHour >= 23 && myHour < 5){
 	// alert ("good night!");
 	myGreeting = "Good Night!";
 	myColor = "black";
